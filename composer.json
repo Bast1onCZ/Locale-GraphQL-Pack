@@ -1,0 +1,23 @@
+{
+    "name": "bastsys/locale-graphql-pack",
+    "description": "GraphQL types for bastsys/locale-bundle",
+    "type": "library",
+    "require": {
+        "php": "^7.4",
+        "bastsys/graphql-bundle": "^2.0",
+        "bastsys/locale-bundle": "^1.1"
+    },
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "klobaska",
+            "email": "mir.klobaska@seznam.cz"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "BastSys\\LocaleGraphQLPack\\": ""
+        }
+    }
+}
