@@ -29,9 +29,9 @@ class CurrencyType extends AbstractObjectType
                 'type' => new NonNullType(new StringType()),
                 'description' => "Code of the currency - such as 'CZK' or 'EUR'",
             ],
-            'pattern' => [
+            'format' => [
                 'type' => new NonNullType(new StringType()),
-                'description' => 'Pattern how the currency should be shown. Has variable {value} for currency',
+                'description' => 'Format of the currency to be shown. Has variable {value} for currency',
             ],
         ]);
     }
