@@ -5,10 +5,15 @@ namespace BastSys\LocaleGraphQLPack\ObjectType;
 
 use BastSys\GraphQLBundle\GraphQL\ObjectType\ATranslatableEntityType;
 use BastSys\GraphQLBundle\GraphQL\ObjectType\ATranslationType;
-use BastSys\GraphQLBundle\GraphQL\ScalarType\Localisation\Alpha2Type;
+use BastSys\LocaleGraphQLPack\ScalarType\Alpha2Type;
 use Youshido\GraphQL\Config\Object\ObjectTypeConfig;
 use Youshido\GraphQL\Type\Scalar\StringType;
 
+/**
+ * Class CountryType
+ * @package BastSys\LocaleGraphQLPack\ObjectType
+ * @author mirkl
+ */
 class CountryType extends ATranslatableEntityType
 {
     /**
