@@ -42,7 +42,7 @@ class CountryType extends ATranslatableEntityType
                 'type' => new StringType(),
                 'description' => "3 digit character code (e.g. '203')"
             ],
-            'defaultCurrency' => [
+            'currency' => [
                 'type' => new CurrencyType(),
                 'description' => 'The most used currency in the country'
             ],
