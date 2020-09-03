@@ -4,7 +4,7 @@
     "type": "library",
     "require": {
         "php": "^7.4",
-        "bastsys/graphql-bundle": "^2.0",
+        "bastsys/graphql-bundle": "^3.0.0",
         "bastsys/locale-bundle": "^1.1"
     },
     "license": "proprietary",
